@@ -50,3 +50,8 @@
     text-align: center;
     padding: 40px;
 }
+
+#logout-button {
+	float: right;
+	margin-top: 8px;
+}
