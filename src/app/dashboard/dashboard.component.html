@@ -11,14 +11,19 @@
     <div class="col-lg-6 col-md-6"><a href="#" class="selection-buttons">DEPARTMENT</a></div>
     <div class="col-lg-6 col-md-6"><a href="#" class="selection-buttons">INVENTORY</a></div>
 </div> -->
-<nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+<nav class="navbar navbar-fixed-top" style="background-color: #e3f2fd;">
     <div class="container">
-        <a class="navbar-brand">HMS</a>
+        <a class="navbar-brand" href="#">
+            <img src="..\..\..\images\favicon.ico" width="20" height="25" class="d-inline-block align-top" alt="">
+        </a>
         <ul class="nav navbar-nav" routerLinkActive="active">
             <li class="nav-item"><a class="nav-link" routerLink="#">Scheduling</a></li>
             <li class="nav-item"><a class="nav-link" routerLink="#">Patient</a></li>
             <li class="nav-item"><a class="nav-link" routerLink="#">Department</a></li>
             <li class="nav-item"><a class="nav-link" routerLink="#">inventory</a></li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
+        </form>
     </div>
 </nav>
