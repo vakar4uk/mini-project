@@ -59,11 +59,10 @@
 	margin-left: 20px;
 	margin-right: 20px;
 }
-
-
-#main-content {
-	float: left;
-	margin-left: 0;
-	width: 100px;
-	
+.dashbuttons{
+	text-align: center;
+	padding: 0px;
+	margin-top: 30px;
+	/* margin-left: 30px;
+	margin-right: 30px; */
 }
