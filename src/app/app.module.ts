@@ -7,10 +7,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { PatientComponent } from './patient/patient.component';
 
 const appRoutes: Routes =[
   { path: '', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
+  { path: 'patient', component: PatientComponent }
 
 ];
 
@@ -18,7 +20,8 @@ const appRoutes: Routes =[
   declarations: [
     AppComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    PatientComponent
   ],
   imports: [
     BrowserModule,
