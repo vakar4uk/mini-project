@@ -1,4 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.login-container {     
+    text-align: center;    
+    font-weight: bold;
+}
+
+#logo-img {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
 #footer {
     min-height: 100%;
     position: absolute;
