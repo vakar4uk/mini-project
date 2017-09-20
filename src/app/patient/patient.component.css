@@ -59,3 +59,20 @@
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
+
+#main-content {
+	float: left;
+	margin-left: 0;
+	width: 100px;
+	
+}
+#patient-billing-button {
+	
+	/* float: center; */
+	/* margin-top: 300px; */
+}
+#patient-insurance-button {
+	/* float: center; */
+	/* margin-top: 300px; */
+}

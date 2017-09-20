@@ -8,11 +8,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { PatientComponent } from './patient/patient.component';
+import { BillingComponent } from './billing/billing.component';
+import { InsuranceComponent } from './insurance/insurance.component';
 
 const appRoutes: Routes =[
   { path: '', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
-  { path: 'patient', component: PatientComponent }
+  { path: 'patient', component: PatientComponent },
+  { path: 'billing', component: BillingComponent },
+  { path: 'insurance', component: InsuranceComponent }
 
 ];
 
@@ -21,7 +25,9 @@ const appRoutes: Routes =[
     AppComponent,
     LoginComponent,
     DashboardComponent,
-    PatientComponent
+    PatientComponent,
+    BillingComponent,
+    InsuranceComponent
   ],
   imports: [
     BrowserModule,
