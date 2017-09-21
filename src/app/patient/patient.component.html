@@ -1,42 +1,40 @@
-<!-- <div class="logo-container">
-    <img class="col-md-12 col-sm-12 col-xs-12" src="..\images\Logo.jpg">
-</div>
 
-<div class="button-container">
-    <a href="#" class="col-md-12 col-sm-12 col-xs-12" class="selection-buttons">SCHEDULING</a>
-    <a href="#" class="col-md-12 col-sm-12 col-xs-12" class="selection-buttons">PATIENT</a>
-    <a href="#" class="col-md-12 col-sm-12 col-xs-12" class="selection-buttons">DEPARTMENT</a>
-    <a href="#" class="col-md-12 col-sm-12 col-xs-12" class="selection-buttons">INVENTORY</a>
-    <div class="col-lg-6 col-md-6"><a href="#" class="selection-buttons">PATIENT</a></div>
-    <div class="col-lg-6 col-md-6"><a href="#" class="selection-buttons">DEPARTMENT</a></div>
-    <div class="col-lg-6 col-md-6"><a href="#" class="selection-buttons">INVENTORY</a></div>
-</div> -->
-<nav class="navbar navbar-fixed-top col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color: #e3f2fd;">
-    <div class="navcontainer">
-        <a class="navbar-brand" routerLink="#">
-            <img src="..\..\..\images\favicon.ico" width="25" height="20" class="d-inline-block align-top" alt="">
-        </a>
-        <ul class="nav navbar-nav" routerLinkActive="active">
-            <li class="nav-item"><a class="nav-link" routerLink="#">Scheduling</a></li>
-            <li class="nav-item"><a class="nav-link" routerLink="/patient.html">Patient</a></li>
-            <li class="nav-item"><a class="nav-link" routerLink="#">Department</a></li>
-            <li class="nav-item"><a class="nav-link" routerLink="#">Inventory</a></li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <button id="logout-button" class="btn btn-outline-success my-2 my-sm-0" routerLink="/" type="submit">Logout</button>
-        </form>
+    <div class="dashbuttons">
+        <button routerLink="/patient" type="submit" style="border: 0; background: transparent">
+            <img src="..\images\pat.png" width="90" height="90" alt="submit" />
+        </button>
+        <button routerLink="#" type="submit" style="border: 0; background: transparent">
+            <img src="..\images\cal.png" width="90" height="90" alt="submit" />
+        </button>
+        <button routerLink="#" type="submit" style="border: 0; background: transparent">
+            <img src="..\images\depart.png" width="90" height="90" alt="submit" />
+        </button>
+        <button routerLink="#" type="submit" style="border: 0; background: transparent">
+            <img src="..\images\inv.png" width="90" height="90" alt="submit" />
+        </button>
+        <br><br>
+        <button routerLink="/billing" type="submit" style="border: 0; background: transparent">
+            <img src="..\images\billing.png" width="90" height="90" alt="submit" />
+        </button>
+        <button routerLink="/insurance" type="submit" style="border: 0; background: transparent">
+            <img src="..\images\insurance.png" width="90" height="90" alt="submit" />
+        </button>
     </div>
-        
-    
-</nav>
 
-<form class="form-inline my-2 my-lg-0">
+ 
+<!-- <form class="form-inline my-2 my-lg-0">
     <br>
     <br>
-        <button id="patient-billing-button "  class="btn btn-outline-success my-2 my-sm-0" routerLink="/billing" type="submit">Billing</button>
+    <button class= "dashbuttons col-lg-3 col-md-3 col-sm-3 col-xs-12" routerLink="/billing" type="submit" style="border: 0; background: transparent">
+            <img src="..\images\billing.png" width="90" height="90" alt="submit" />
+        </button>
+        <button class= "dashbuttons col-lg-3 col-md-3 col-sm-3 col-xs-12" routerLink="/insurance" type="submit" style="border: 0; background: transparent">
+            <img src="..\images\insurance.png" width="90" height="90" alt="submit" />
+        
+            <button id="patient-billing-button "  class="btn btn-outline-success my-2 my-sm-0" routerLink="/billing" type="submit">Billing</button>
         <button id="patient-insurance-button" class="btn btn-outline-success my-2 my-sm-0" routerLink="/insurance" type="submit">Insurance</button>
         
         
-    </form>
-    
+</form>
+     -->
 
