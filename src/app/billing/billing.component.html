@@ -24,7 +24,7 @@
             <!-- https://www.w3schools.com/angular/angular_forms.asp -->
             
             <div ng-app="myApp" ng-controller="formCtrl">
-              <form>
+              <form class="derp">
                 First Name: <input type="text" ng-model="firstname"><br><br>
                 Last Name: <input type="text" ng-model="lastname"><br><br>
                 Steet: <input type="text" ng-model="street"><br><br>
@@ -35,13 +35,4 @@
                 Expiredate: <input type="text" ng-model="expiredate"><br><br>
               </form>
             </div>
-            
-            <script>
-            var app = angular.module('myApp', []);
-            app.controller('formCtrl', function($scope) {
-                $scope.firstname = "John";
-            });
-            </script>
-            
-            
     </div>
