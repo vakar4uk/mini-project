@@ -1,0 +1,17 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+   
+ }
+ .heading{
+    color: rgba(0, 0, 158, 0.79);
+    text-align: center;
+    margin-top: 0px;
+ }
+ .fields{
+    text-align: left;
+    margin-top: 20px;
+    position: relative; 
+    font-weight: bold;
+ }
+ 
