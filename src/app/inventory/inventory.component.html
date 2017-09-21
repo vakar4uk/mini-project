@@ -1,6 +1,8 @@
 <div class="heading">
     <h1>Inventory</h1> <br><br>
 </div>
+
+<div class="inv-content">
 <div class="leftbar-buttons col-lg-3" id="leftbar-buttons">
     <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
         <button routerLink="/patient" type="submit" style="border: 0; background: transparent">
@@ -44,7 +46,8 @@
     <input type="text" placeholder="Enter Unit Price" ng-model="unitprice" required><br><br>
     <label>Total Price:</label>
     <input type="text" placeholder="Total" ng-model="totalprice" required><br><br>
+    <div>
+            <input id="submit-button" type="submit">
+    </div>
 </div>
-<div class="submit col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <button>Search</button>
 </div>
