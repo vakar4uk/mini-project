@@ -8,12 +8,7 @@
     text-align: center;
     margin-top: 0px;
 }
-.submit{
-    text-align: center;
-    margin-top: 0px;
-    position: relative;  
-    font-weight: bold;
-}
+
 .fields{
     text-align: center;
     margin-top: 20px;
@@ -34,6 +29,14 @@ input{
 fieldset{
     text-align:center;
     border:none;
-    width:500px;
+    width:200px;
     margin:0px auto;
+}
+.leftbar-buttons {
+	margin-top:20px;
+    padding-bottom: 25px;
+	width: 50px;
+	float: left;
+	margin-left: 15px;
+    
 }

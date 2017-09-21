@@ -9,9 +9,16 @@
     margin-top: 0px;
  }
  .fields{
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
     position: relative; 
     font-weight: bold;
  }
- 
+ .leftbar-buttons {
+	margin-top:20px;
+    padding-bottom: 25px;
+	width: 50px;
+	float: left;
+	margin-left: 15px;
+    
+}
