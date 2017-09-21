@@ -1,17 +1,15 @@
-<div class="logo-container">
-        <img class="col-md-12 col-sm-12 col-xs-12" src="..\images\Logo.jpg">
-    </div>
-    <div class="navbuttons">
-        <button class= "dashbuttons col-lg-3 col-md-3 col-sm-3 col-xs-12" routerLink="/patient" type="submit" style="border: 0; background: transparent">
+
+    <div class="dashbuttons">
+        <button class= "col-lg-3 col-md-3 col-sm-3 col-xs-12" routerLink="/patient" type="submit" style="border: 0; background: transparent">
             <img src="..\images\pat.png" width="90" height="90" alt="submit" />
         </button>
-        <button class= "dashbuttons col-lg-3 col-md-3 col-sm-3 col-xs-12" routerLink="#" type="submit" style="border: 0; background: transparent">
+        <button class= "col-lg-3 col-md-3 col-sm-3 col-xs-12" routerLink="#" type="submit" style="border: 0; background: transparent">
             <img src="..\images\cal.png" width="90" height="90" alt="submit" />
         </button>
-        <button class= "dashbuttons col-lg-3 col-md-3 col-sm-3 col-xs-12" routerLink="#" type="submit" style="border: 0; background: transparent">
+        <button class= "col-lg-3 col-md-3 col-sm-3 col-xs-12" routerLink="#" type="submit" style="border: 0; background: transparent">
             <img src="..\images\depart.png" width="90" height="90" alt="submit" />
         </button>
-        <button class= "dashbuttons col-lg-3 col-md-3 col-sm-3 col-xs-12" routerLink="#" type="submit" style="border: 0; background: transparent">
+        <button class= "col-lg-3 col-md-3 col-sm-3 col-xs-12" routerLink="#" type="submit" style="border: 0; background: transparent">
             <img src="..\images\inv.png" width="90" height="90" alt="submit" />
         </button>
     </div>
@@ -26,7 +24,7 @@
             <!-- https://www.w3schools.com/angular/angular_forms.asp -->
             
             <div ng-app="myApp" ng-controller="formCtrl">
-              <form>
+              <form class="derp">
                 First Name: <input type="text" ng-model="firstname"><br><br>
                 Last Name: <input type="text" ng-model="lastname"><br><br>
                 Steet: <input type="text" ng-model="street"><br><br>
@@ -36,14 +34,5 @@
                 Insurance ID: <input type="text" ng-model="insuranceid"><br><br>
                 Expiredate: <input type="text" ng-model="expiredate"><br><br>
               </form>
-            </div>
-            
-            <script>
-            var app = angular.module('myApp', []);
-            app.controller('formCtrl', function($scope) {
-                $scope.firstname = "John";
-            });
-            </script>
-            
-            
+            </div>            
     </div>
