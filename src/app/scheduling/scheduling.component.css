@@ -1,0 +1,24 @@
+.content {
+    position: relative;
+}
+
+.leftbar-buttons {
+    padding-bottom: 10px;
+    width: 50px;
+    float: left;
+    
+}
+
+.calendar-container {
+    position: relative;
+    margin-left: 200px;
+    
+    text-align: center;
+    
+}
+
+#calendar {
+    width: 1000px;
+    height: 380px;
+    float: left;
+}

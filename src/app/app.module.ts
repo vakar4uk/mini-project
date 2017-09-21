@@ -11,6 +11,7 @@ import { InventoryComponent } from './inventory/inventory.component';
 import { PatientComponent } from './patient/patient.component';
 import { BillingComponent } from './billing/billing.component';
 import { InsuranceComponent } from './insurance/insurance.component';
+import { SchedulingComponent } from './scheduling/scheduling.component';
 
 const appRoutes: Routes =[
   { path: '', component: LoginComponent },
@@ -18,7 +19,8 @@ const appRoutes: Routes =[
   { path: 'patient', component: PatientComponent },
   { path: 'billing', component: BillingComponent },
   { path: 'insurance', component: InsuranceComponent },
-  { path: 'inventory', component: InventoryComponent }
+  { path: 'inventory', component: InventoryComponent },
+  { path: 'scheduling', component: SchedulingComponent }
 
 ];
 
@@ -30,7 +32,8 @@ const appRoutes: Routes =[
     InventoryComponent,
     PatientComponent,
     BillingComponent,
-    InsuranceComponent
+    InsuranceComponent,
+    SchedulingComponent
   ],
   imports: [
     BrowserModule,
