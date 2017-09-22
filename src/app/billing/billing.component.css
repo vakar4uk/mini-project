@@ -3,36 +3,6 @@
     padding: 0px;    
 }
 
-.selection-buttons:active {
-	position:relative;
-	top:1px;
-}
-
-.button-container {
-    text-align: center;
-    padding: 40px;
-}
-
-#logout-button {
-	float: right;
-	margin-top: 8px;
-}
-.navcontainer{
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-
-#main-content {
-	float: left;
-	margin-left: 0;
-	width: 100px;
-	
-}
-.derp{
-	text-align: center;
-}
-
 .leftbar-buttons {
     padding-bottom: 25px;
 	width: 50px;
@@ -56,8 +26,9 @@
     margin-bottom: 0;
     height: 150px;  
 }
-.submit {
-    text-align: center;
+#submit-button {
+    position: relative;;
+    margin-left: 234px;
     margin-bottom: 50px;
 }
 label{

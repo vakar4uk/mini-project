@@ -1,52 +1,59 @@
-<!-- Left Navigation Bar  -->
+<!-- Heading -->
 <div class="heading">
-        <h1>Insurance</h1> <br><br>
-    </div>
+    <h1>Patient/Insurance</h1> <br><br>
+</div>
+
+<!-- Left Navigation Bar  -->
 <div class="leftbar-buttons col-lg-3" id="leftbar-buttons">
     <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
         <button routerLink="/dashboard" type="submit" style="border: 0; background: transparent">
-                    <img src="..\images\home.png" width="60" height="60" alt="submit" />
-            </button>
-    </div>
-    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-        <button routerLink="/patient" type="submit" style="border: 0; background: transparent">
-                    <img src="..\images\pat.png" width="60" height="60" alt="submit" />
+                        <img src="..\images\home.png" width="60" height="60" alt="submit" />
                 </button>
     </div>
     <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+        <button routerLink="/patient" type="submit" style="border: 0; background: transparent">
+                        <img src="..\images\pat.png" width="60" height="60" alt="submit" />
+                    </button>
+    </div>
+    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
         <button routerLink="/scheduling" type="submit" style="border: 0; background: transparent">
-                <img src="..\images\cal.png" width="60" height="60" alt="submit" />
-            </button>
+                    <img src="..\images\cal.png" width="60" height="60" alt="submit" />
+                </button>
     </div>
     <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
         <button routerLink="/employees" type="submit" style="border: 0; background: transparent">
-                <img src="..\images\depart.png" width="60" height="60" alt="submit" />
+                    <img src="..\images\depart.png" width="60" height="60" alt="submit" />
+                </button>
+    </div>
+    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+        <button routerLink="/inventory" type="submit" style="border: 0; background: transparent">
+                    <img src="..\images\inv.png" width="60" height="60" alt="submit" />
             </button>
-        </div> 
-  </div> 
-   
-    
-    
-    <div class="fields">
-            <label>First Name:</label>
-            <input type="text" placeholder="Enter First Name" ng-model="firstname" required><br><br>
-            <label>Last Name:</label>
-            <input type="text" placeholder="Enter Last Name" ng-model="lastname" required><br><br>
-            <label>Street Address:</label>
-            <input type="text" placeholder="Enter Street" ng-model="street" required><br><br>
-            <label>City:</label>
-            <input type="text" placeholder="Enter City" ng-model="city" required><br><br>
-            <label>Zip:</label>
-            <input type="text" placeholder="Enter Zip" ng-model="zip" required><br><br>
-            <label>Insurance Company:</label>
-            <input type="text" placeholder="Enter Insurance Company" ng-model="insurance Company" required><br><br>
-            <label>Insurance ID:</label>
-            <input type="text" placeholder="Enter Insurance ID" ng-model="insuranceid" required><br><br>
-            <label>Expire Date:</label>
-            <input type="text" placeholder="Enter Exp Date" ng-model="expdate" required><br><br>
-            
-           
-            <div>
-                    <input id="submit-button" type="submit">
-            </div>
-        </div>
+    </div>
+
+</div>
+
+<!-- Form -->
+<div class="fields">
+    <label>First Name:</label>
+    <input type="text" placeholder="Enter First Name" ng-model="firstname" required><br><br>
+    <label>Last Name:</label>
+    <input type="text" placeholder="Enter Last Name" ng-model="lastname" required><br><br>
+    <label>Street Address:</label>
+    <input type="text" placeholder="Enter Street" ng-model="street" required><br><br>
+    <label>City:</label>
+    <input type="text" placeholder="Enter City" ng-model="city" required><br><br>
+    <label>Zip:</label>
+    <input type="text" placeholder="Enter Zip" ng-model="zip" required><br><br>
+    <label>Insurance Company:</label>
+    <input type="text" placeholder="Enter Insurance Company" ng-model="insurance Company" required><br><br>
+    <label>Insurance ID:</label>
+    <input type="text" placeholder="Enter Insurance ID" ng-model="insuranceid" required><br><br>
+    <label>Expire Date:</label>
+    <input type="text" placeholder="Enter Exp Date" ng-model="expdate" required><br><br>
+
+
+    <div id="submit-button" >
+        <input type="submit">
+    </div>
+</div>
