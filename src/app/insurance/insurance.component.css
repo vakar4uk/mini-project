@@ -2,29 +2,21 @@
     margin-top: 0px;
     padding: 0px;    
 }
-.button-container {
-    text-align: center;
-    padding: 40px;
-}
 
 #logout-button {
 	float: right;
 	margin-top: 8px;
 }
-.navcontainer{
+.navcontainer {
 	margin-left: 20px;
 	margin-right: 20px;
 }
-label{
+label {
     display:inline-block;
     width:200px;
     margin-right:30px;
     text-align:left;
     }
-    
-input{
-    
-}
     
 fieldset{
     text-align:center;
