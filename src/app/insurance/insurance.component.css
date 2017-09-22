@@ -16,7 +16,7 @@ label {
     width:200px;
     margin-right:30px;
     text-align:left;
-}
+    }
     
 fieldset{
     text-align:center;
@@ -47,38 +47,9 @@ fieldset{
 	margin-left: 30px;
 	margin-right: 30px;
 }
-
 .leftbar-buttons {
     padding-bottom: 25px;
 	width: 50px;
 	float: left;
-	margin-left: 15px;
-    
-}
-.fields{
-    
-        margin-top: 0;
-        margin-left: 400px;     
-        font-weight: bold;
-        position: relative; 
-}
-
-.heading{
-        color: rgba(0, 0, 158, 0.79);
-        text-align: center;
-        margin-top: 0px;
-        margin-bottom: 0;
-        height: 150px;  
-}
-
-.submit {
-        text-align: center;
-        margin-bottom: 50px;
-}
-
-label{
-        display:inline-block;
-        width:200px;
-        margin-right:30px;
-        text-align:right;
+	margin-left: 15px;    
 }
