@@ -1,7 +1,11 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+    
+}
 .login-container {  
-    position: relative;
-    text-align: center;    
-    font-weight: bold;
+	position: absolute;
+    text-align: center;
 }
 .selection-buttons {
 	-moz-box-shadow: 3px 4px 0px -1px #1564ad;
@@ -78,3 +82,27 @@
 	margin-left: 15px;
     
 }
+.fields{
+
+	margin-top: 0;
+    margin-left: 400px;     
+    font-weight: bold;
+    position: relative; 
+}
+.heading{
+    color: rgba(0, 0, 158, 0.79);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    height: 150px;  
+}
+.submit {
+    text-align: center;
+    margin-bottom: 50px;
+}
+label{
+    display:inline-block;
+    width:200px;
+    margin-right:30px;
+    text-align:right;
+    }
