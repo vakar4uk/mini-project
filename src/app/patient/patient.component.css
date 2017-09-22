@@ -94,8 +94,9 @@
 	margin-right: 100px;
 }
 .leftbar-buttons {
-    padding-bottom: 10px;
-    width: 50px;
-    float: left;
+    padding-bottom: 25px;
+	width: 50px;
+	float: left;
+	margin-left: 15px;
     
 }

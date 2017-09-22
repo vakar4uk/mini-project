@@ -70,3 +70,11 @@
 .derp{
 	text-align: center;
 }
+.leftbar-buttons {
+	margin-top:20px;
+    padding-bottom: 25px;
+	width: 50px;
+	float: left;
+	margin-left: 15px;
+    
+}
