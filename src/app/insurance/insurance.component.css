@@ -1,4 +1,7 @@
-
+*{
+    margin-top: 0px;
+    padding: 0px;    
+}
 .button-container {
     text-align: center;
     padding: 40px;
@@ -53,10 +56,8 @@ fieldset{
 	margin-right: 30px;
 }
 .leftbar-buttons {
-	margin-top:20px;
     padding-bottom: 25px;
 	width: 50px;
 	float: left;
-	margin-left: 15px;
-    
+	margin-left: 15px;    
 }

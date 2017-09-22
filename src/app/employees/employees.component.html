@@ -1,35 +1,37 @@
-<div class="heading">
+<!-- <div class="heading">
     <h1>Employees</h1> <br>
+</div> -->
+
+    <!-- Left Navifation Bar  -->
+<div class="leftbar-buttons col-lg-3">
+    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+        <button routerLink="/dashboard" type="submit" style="border: 0; background: transparent">
+                    <img src="..\images\home.png" width="60" height="60" alt="submit" />
+            </button>
+    </div>
+    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+        <button routerLink="/patient" type="submit" style="border: 0; background: transparent">
+                    <img src="..\images\pat.png" width="60" height="60" alt="submit" />
+                </button>
+    </div>
+    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+        <button routerLink="/scheduling" type="submit" style="border: 0; background: transparent">
+                <img src="..\images\cal.png" width="60" height="60" alt="submit" />
+            </button>
+    </div>
+    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+        <button routerLink="/employees" type="submit" style="border: 0; background: transparent">
+                <img src="..\images\depart.png" width="60" height="60" alt="submit" />
+            </button>
+    </div>
+    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+        <button routerLink="/inventory" type="submit" style="border: 0; background: transparent">
+                <img src="..\images\inv.png" width="60" height="60" alt="submit" />
+        </button>
+    </div>
 </div>
 
-<div class="emp-content">
-    <div class="leftbar-buttons col-lg-3" id="leftbar-buttons">
-        <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-            <button routerLink="/dashboard" type="submit" style="border: 0; background: transparent">
-                <img src="..\images\home.png" width="60" height="60" alt="submit" />
-        </button>
-        </div>
-        <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-            <button routerLink="/patient" type="submit" style="border: 0; background: transparent">
-                      <img src="..\images\pat.png" width="60" height="60" alt="submit" />
-                  </button>
-        </div>
-        <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-            <button routerLink="/scheduling" type="submit" style="border: 0; background: transparent">
-                  <img src="..\images\cal.png" width="60" height="60" alt="submit" />
-              </button>
-        </div>
-        <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-            <button routerLink="/employees" type="submit" style="border: 0; background: transparent">
-                  <img src="..\images\depart.png" width="60" height="60" alt="submit" />
-              </button>
-        </div>
-        <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-            <button routerLink="/inventory" type="submit" style="border: 0; background: transparent">
-                  <img src="..\images\inv.png" width="60" height="60" alt="submit" />
-          </button>
-        </div>
-    </div>  
+    
 
     <div class="fields">
         <label>Employee Name</label>
@@ -45,4 +47,3 @@
         <label>Room Assignment:</label>
         <input type="text" placeholder="A320" ng-model="itemamount" required><br><br>
     </div>
-</div>
