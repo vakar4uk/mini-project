@@ -1,22 +1,21 @@
-.content {
-    position: relative;
+* {
+	margin: 0;
+	padding: 0;
 }
 
 .leftbar-buttons {
-    padding-bottom: 10px;
-    width: 50px;
-    float: left;
-    
+    padding-bottom: 25px;
+	width: 50px;
+	float: left;
+	margin-left: 15px;    
 }
 
+/* Calendar formatting */
 .calendar-container {
     position: relative;
-    margin-left: 200px;
-    
-    text-align: center;
-    
+    margin-left: 200px;    
+    text-align: center;    
 }
-
 #calendar {
     width: 1000px;
     height: 380px;
