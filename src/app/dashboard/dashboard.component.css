@@ -65,4 +65,10 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
-  }
+	}
+	#tooltiptext {
+		width: 120px;
+    top: 100%;
+    left: 50%; 
+    margin-left: -60px; 
+	}

@@ -7,7 +7,7 @@
 	text-align: center;
 	padding: 50px;
 	margin-top: 30px;
-	margin-left: 450px;
+	margin-left: 350px;
 	/* margin-right: 100px; */
 }
 /* .buttonspace{
@@ -43,7 +43,7 @@ padding: 50px;
 	opacity: 0;
 	pointer-events: none;
   }
-   /* Position tooltip above the element */
+   /* Position tooltip to the right of the element */
   [data-tooltip]:before {
 	position: absolute;
 	/* bottom: 150%; */
@@ -73,4 +73,6 @@ padding: 50px;
 	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
 	opacity: 1;
   }
- 
+ #insurance {
+	 margin-left: 300px;
+ }
