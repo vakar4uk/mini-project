@@ -59,7 +59,7 @@ a:hover {
   
   /* Position tooltip above the element */
   [data-tooltip]:before {
-	position: absolute;
+	/* position: absolute; */
 	bottom: 125%;
 	left: 50%;
 	margin-bottom: 5px;
@@ -78,7 +78,7 @@ a:hover {
 	line-height: 1.2;
   }
   
-  [data-tooltip]:after {
+  /* [data-tooltip]:after {
 	position: absolute;
 	bottom: 125%;
 	left: 50%;
@@ -91,7 +91,7 @@ a:hover {
 	content: " ";
 	font-size: 0;
 	line-height: 0;
-  }
+  } */
   
   
   /* Show tooltip content on hover */
