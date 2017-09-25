@@ -1,0 +1,61 @@
+<div class="heading">
+  <h1>Add Inventory</h1> <br><br>
+</div>
+
+<!-- Left Navigation Bar  -->
+<div class="leftbar-buttons col-lg-3">
+  <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+      <button data-tooltip="Dashboard"routerLink="/dashboard" type="submit" style="border: 0; background: transparent">
+                  <img src="..\images\home.png" width="60" height="60" alt="submit" />
+          </button>
+  </div>
+  <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+      <button data-tooltip="Patient"routerLink="/patient" type="submit" style="border: 0; background: transparent">
+                  <img src="..\images\pat.png" width="60" height="60" alt="submit" />
+              </button>
+  </div>
+  <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+      <button data-tooltip="Scheduling"routerLink="/scheduling" type="submit" style="border: 0; background: transparent">
+              <img src="..\images\cal.png" width="60" height="60" alt="submit" />
+          </button>
+  </div>
+  <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+      <button data-tooltip="Employees"routerLink="/employees" type="submit" style="border: 0; background: transparent">
+              <img src="..\images\depart.png" width="60" height="60" alt="submit" />
+          </button>
+  </div>
+  <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
+      <button data-tooltip="Inventory"routerLink="/inventory" type="submit" style="border: 0; background: transparent">
+              <img src="..\images\inv.png" width="60" height="60" alt="submit" />
+      </button>
+  </div>
+</div>
+
+<!-- Form -->
+<div class="fields">
+  <label>SKU#:</label>
+  <input type="text" placeholder="Enter SKU#" ng-model="sku" required><br><br>
+  <label>Category:</label>
+  <input type="text" placeholder="Enter Category" ng-model="category" required><br><br>
+  <label>Item Name:</label>
+  <input type="text" placeholder="Enter Item Name" ng-model="itemname" required><br><br>
+  <label>Item Description:</label>
+  <input type="text" placeholder="Enter Item Description" ng-model="itemdesc" required><br><br>
+  <label>Amount of Items:</label>
+  <input type="text" placeholder="Enter Amount of Items" ng-model="itemamount" required><br><br>
+  <label>Supplier:</label>
+  <input type="text" placeholder="Enter Supplier" ng-model="supplier" required><br><br>
+  <label>Purchase Date:</label>
+  <input type="text" placeholder="Enter Date of Purchase" ng-model="datepur" required><br><br>
+  <label>Expiration Date:</label>
+  <input type="text" placeholder="Enter Expiration Date" ng-model="expdate" required><br><br>
+  <label>Unit Price:</label>
+  <input type="text" placeholder="Enter Unit Price" ng-model="unitprice" required><br><br>
+  <label>Total Price:</label>
+  <input type="text" placeholder="Total" ng-model="totalprice" required><br><br>
+  
+  <div>
+          <input id="submit-button" type="submit">
+  </div>
+</div>
+

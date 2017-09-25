@@ -17,6 +17,10 @@ import { EmployeeaddComponent } from './employeeadd/employeeadd.component';
 import { EmployeedelComponent } from './employeedel/employeedel.component';
 import { EmployeeeditComponent } from './employeeedit/employeeedit.component';
 import { EmployeesearchComponent } from './employeesearch/employeesearch.component';
+import { InventoryaddComponent } from './inventoryadd/inventoryadd.component';
+import { InventoryeditComponent } from './inventoryedit/inventoryedit.component';
+import { InventorydelComponent } from './inventorydel/inventorydel.component';
+import { InventorysearchComponent } from './inventorysearch/inventorysearch.component';
 
 const appRoutes: Routes =[
   { path: '', component: LoginComponent },
@@ -30,7 +34,11 @@ const appRoutes: Routes =[
   { path: 'employeeadd', component: EmployeeaddComponent },
   { path: 'employeedel', component: EmployeedelComponent },
   { path: 'employeeedit', component: EmployeeeditComponent },
-  { path: 'employeesearch', component: EmployeesearchComponent }
+  { path: 'employeesearch', component: EmployeesearchComponent },
+  { path: 'inventoryadd', component: InventoryaddComponent },
+  { path: 'inventorydel', component: InventorydelComponent },
+  { path: 'inventoryedit', component: InventoryeditComponent },
+  { path: 'inventorysearch', component: InventorysearchComponent }
   
 
 ];
@@ -49,7 +57,11 @@ const appRoutes: Routes =[
     EmployeeaddComponent,
     EmployeedelComponent,
     EmployeeeditComponent,
-    EmployeesearchComponent
+    EmployeesearchComponent,
+    InventoryaddComponent,
+    InventoryeditComponent,
+    InventorydelComponent,
+    InventorysearchComponent
   ],
   imports: [
     BrowserModule,
