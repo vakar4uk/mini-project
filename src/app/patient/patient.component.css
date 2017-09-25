@@ -3,6 +3,15 @@
 	padding: 0;
 }
 
+#patient-billing-button {
+	
+	/* float: center; */
+	/* margin-top: 300px; */
+}
+#patient-insurance-button {
+	/* float: center; */
+	/* margin-top: 300px; */
+}
 .dashbuttons{
 	text-align: center;
 	padding: 100px;
@@ -14,13 +23,6 @@
     padding-bottom: 25px;
 	width: 50px;
 	float: left;
-	margin-left: 15px;    
-}
-
-.heading{
-    color: rgba(0, 0, 158, 0.79);
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0;
-    height: 150px;  
+	margin-left: 15px;
+    
 }

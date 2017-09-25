@@ -10,14 +10,6 @@
 	margin-left: 15px;    
 }
 
-.heading{
-    color: rgba(0, 0, 158, 0.79);
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0;
-    height: 150px;  
-}
-
 /* Calendar formatting */
 .calendar-container {
     position: relative;
@@ -29,4 +21,3 @@
     height: 380px;
     float: left;
 }
-
