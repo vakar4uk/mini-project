@@ -13,6 +13,10 @@ import { PatientComponent } from './patient/patient.component';
 import { BillingComponent } from './billing/billing.component';
 import { InsuranceComponent } from './insurance/insurance.component';
 import { SchedulingComponent } from './scheduling/scheduling.component';
+import { EmployeeaddComponent } from './employeeadd/employeeadd.component';
+import { EmployeedelComponent } from './employeedel/employeedel.component';
+import { EmployeeeditComponent } from './employeeedit/employeeedit.component';
+import { EmployeesearchComponent } from './employeesearch/employeesearch.component';
 
 const appRoutes: Routes =[
   { path: '', component: LoginComponent },
@@ -22,7 +26,12 @@ const appRoutes: Routes =[
   { path: 'billing', component: BillingComponent },
   { path: 'insurance', component: InsuranceComponent },
   { path: 'inventory', component: InventoryComponent },
-  { path: 'scheduling', component: SchedulingComponent }
+  { path: 'scheduling', component: SchedulingComponent },
+  { path: 'employeeadd', component: EmployeeaddComponent },
+  { path: 'employeedel', component: EmployeedelComponent },
+  { path: 'employeeedit', component: EmployeeeditComponent },
+  { path: 'employeesearch', component: EmployeesearchComponent }
+  
 
 ];
 
@@ -36,7 +45,11 @@ const appRoutes: Routes =[
     PatientComponent,
     BillingComponent,
     InsuranceComponent,
-    SchedulingComponent
+    SchedulingComponent,
+    EmployeeaddComponent,
+    EmployeedelComponent,
+    EmployeeeditComponent,
+    EmployeesearchComponent
   ],
   imports: [
     BrowserModule,
