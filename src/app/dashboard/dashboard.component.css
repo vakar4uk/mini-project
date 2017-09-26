@@ -116,3 +116,13 @@ html {
     width: 70%;
   } */
   
+
+  .marquee-container {
+    position: relative;
+    text-align: center;        
+  }
+
+  #marquee-img {    
+    width: 1200px;
+    height: 500px;
+  }
