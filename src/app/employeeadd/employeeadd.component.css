@@ -1,0 +1,39 @@
+*{
+    margin-top: 0px;
+    padding: 0px;    
+}
+
+.leftbar-buttons {
+    padding-bottom: 20px;
+	width: 50px;
+	float: left;
+	margin-left: 15px;
+    
+}
+.fields{    
+    margin-top: 0;
+    margin-left: 400px;     
+    font-weight: bold;
+    position: relative; 
+}
+
+.heading{
+    color: rgba(0, 0, 158, 0.79);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    height: 150px;  
+}
+
+#submit-button {    
+    position: relative;;
+    margin-left: 234px;
+    margin-bottom: 50px;
+}
+
+label {
+    display:inline-block;
+    width:200px;
+    margin-right:30px;
+    text-align:right;
+}

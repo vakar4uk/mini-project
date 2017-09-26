@@ -1,6 +1,6 @@
 <!-- Heading -->
 <div class="heading">
-    <h1>Employees</h1> <br>
+  <h1>Add Employee</h1> <br><br>
 </div>
 
 <!-- Left Navigation Bar  -->
@@ -38,21 +38,30 @@
                 </button>
         </div>
     </div>
-<!-- Main Content Goes Here -->
-<div class="dashbuttons">
-    <button data-tooltip="Add Employee"id="positioning" routerLink="/employeeadd" type="submit" style="border: 0; background: transparent">
-            <img src="..\images\addemp.png" width="90" height="90" alt="submit" />
-    </button>
-    <button data-tooltip="Edit Employee" routerLink="/employeeedit" type="submit" style="border: 0; background: transparent">
-            <img src="..\images\editemp.png" width="90" height="90" alt="submit" />
-    </button>
-    
-    <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<!-- Form -->
+<div class="fields">
+  <label>First Name:</label>
+  <input type="text" placeholder="Enter First Name" ng-model="firstname" required><br><br>
+  <label>Last Name:</label>
+  <input type="text" placeholder="Enter Last Name" ng-model="lastname" required><br><br>
+  <label>Title:</label>
+  <input type="text" placeholder="Enter Title" ng-model="title" required><br><br>
+  <label>Hire Date:</label>
+  <input type="text" placeholder="Enter Hire Date" ng-model="hiredate" required><br><br>
+  <label>SSN:</label>
+  <input type="text" placeholder="Enter SSN" ng-model="ssn" required><br><br>
+  <label>Street Address:</label>
+  <input type="text" placeholder="Enter Street" ng-model="street" required><br><br>
+  <label>City:</label>
+  <input type="text" placeholder="Enter City" ng-model="city" required><br><br>
+  <label>Zip:</label>
+  <input type="text" placeholder="Enter Zip" ng-model="zip" required><br><br>
+  <label>Phone Number:</label>
+  <input type="text" placeholder="Enter Phone Number" ng-model="phonenumber" required><br><br>
 
-    <button data-tooltip="Delete Employee"id="positioning" routerLink="/employeedel" type="submit" style="border: 0; background: transparent">
-        <img src="..\images\deleteemp.png" width="90" height="90" alt="submit" />
-    </button>
-    <button data-tooltip="Search Employee" routerLink="/employeesearch" type="submit" style="border: 0; background: transparent">
-            <img src="..\images\searchemp.png" width="90" height="90" alt="submit" />
-    </button>
+
+
+  <div id="submit-button" >
+      <input type="submit">
+  </div>
 </div>
