@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+	margin: 0;
+	padding: 0;
+}
+
 .login-container {     
     text-align: center;    
     font-weight: bold;
@@ -10,9 +15,12 @@
 }
 
 #footer {
-    min-height: 100%;
-    position: absolute;
-  }
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:10px;   /* Height of the footer */
+    text-align: center;    
+ }
   
   .footer-container {
       position: absolute;    
