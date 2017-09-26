@@ -110,9 +110,8 @@ html {
 
 
   /* Carousel */
-  /* #carousel-example-generic {
+  #carousel-example-generic {
     position: relative;
-    float: right; 
-    width: 70%;
-  } */
-  
+    margin-left: 130px;
+    width: 90%;
+  }
