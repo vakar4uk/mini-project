@@ -107,3 +107,13 @@ html {
     left: 50%; 
     margin-left: -60px; 
 	}
+
+  .marquee-container {
+    position: relative;
+    text-align: center;        
+  }
+
+  #marquee-img {    
+    width: 1200px;
+    height: 500px;
+  }
