@@ -10,7 +10,7 @@ export class con {
     });
 
     con.connect(function (err) {
-      if (err) throw(console.log("YOU FAILED"));
+      if (err) throw(err);
       console.log("Connected!");
     }); 
   }

@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { Routes, RouterModule } from '@angular/router';
 
+import {con} from './demo-db';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -64,7 +65,7 @@ const appRoutes: Routes =[
     InventoryeditComponent,
     InventorydelComponent,
     InventorysearchComponent,
-    ForgotpasswordComponent
+    ForgotpasswordComponent,
   ],
   imports: [
     BrowserModule,

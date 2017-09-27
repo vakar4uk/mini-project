@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import {con} from '../../demo-db';
+//import {con} from '../../demo-db';
 
 @Component({
   selector: 'app-login',
@@ -12,9 +12,11 @@ import {con} from '../../demo-db';
 //     constructor() { }
 export class LoginComponent{
   @ViewChild('f') signupForm: NgForm;
-  // constructor() { 
-  //   let connections = new con();
-  // }
+  constructor() { 
+  //var connections = new con();
+     
+    
+  }
   // ngOnInit(){
 
   // }
