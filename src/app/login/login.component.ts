@@ -12,9 +12,9 @@ import {con} from '../../demo-db';
 //     constructor() { }
 export class LoginComponent{
   @ViewChild('f') signupForm: NgForm;
-  constructor() { 
-    let connections = new con();
-  }
+  // constructor() { 
+  //   let connections = new con();
+  // }
   // ngOnInit(){
 
   // }
