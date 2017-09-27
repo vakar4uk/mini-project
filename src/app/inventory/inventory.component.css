@@ -24,6 +24,11 @@
     height: 30px;
 }
 
+.breadcrumb {
+	background-color: transparent;
+	font-size: 16pt;
+}
+
 label{
     display:inline-block;
     width:200px;

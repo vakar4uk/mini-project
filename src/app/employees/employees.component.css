@@ -16,6 +16,10 @@
     margin-bottom: 0;
     height: 30px;
 }
+.breadcrumb {
+	background-color: transparent;
+	font-size: 16pt;
+}
 .fields {
     
     margin-top: 0;

@@ -26,7 +26,12 @@ padding: 50px;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0;
-    height: 30px;
+		height: 30px;		
+}
+
+.breadcrumb {
+	background-color: transparent;
+	font-size: 16pt;
 }
 /*   * Tooltip Styles*   */
   /* Add this attribute to the element that needs a tooltip */

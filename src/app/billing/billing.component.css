@@ -25,6 +25,11 @@
     margin-bottom: 0;
     height: 30px;
 }
+
+.breadcrumb {
+	background-color: transparent;
+	font-size: 16pt;
+}
 #submit-button {
     position: relative;;
     margin-left: 234px;

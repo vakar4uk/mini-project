@@ -18,6 +18,11 @@
     height: 30px;
 }
 
+.breadcrumb {
+	background-color: transparent;
+	font-size: 16pt;
+}
+
 /* Calendar formatting */
 .calendar-container {
     position: relative;
