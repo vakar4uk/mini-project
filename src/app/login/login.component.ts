@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import {con} from '../../demo-db';
 
 @Component({
   selector: 'app-login',
@@ -9,29 +10,14 @@ import { NgForm } from '@angular/forms';
 // export class InventorysearchComponent implements OnInit {
   
 //     constructor() { }
-  
-//     ngOnInit() {
-//     }
-  
-//   }
-  
-export class LoginComponent implements OnInit {
+export class LoginComponent{
   @ViewChild('f') signupForm: NgForm;
-
-  ngOnInit(){
-    var mysql = require('mysql');
-    
-    var con = mysql.createConnection({
-      host: "localhost",
-      user: "myusername",
-      password: "mypassword"
-    });
-    
-    con.connect(function(err) {
-      if (err) throw err;
-      console.log("Connected!");
-    });
+  constructor() { 
+    let connections = new con();
   }
+  // ngOnInit(){
+
+  // }
   onSubmit() {
     console.log(this.signupForm);
 
