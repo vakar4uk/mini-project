@@ -11,10 +11,14 @@
 	margin-left: 15px;	  
 }
 
-/**
- * Demo styles
- * Not needed for tooltips to work
- */
+.heading{
+  color: rgba(4, 4, 18, 0.79);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0;
+  height: 30px;
+}
+
 
 /* `border-box`... ALL THE THINGS! */
 html {

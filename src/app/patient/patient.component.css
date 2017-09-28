@@ -10,9 +10,7 @@
 	margin-left: 350px;
 	/* margin-right: 100px; */
 }
-/* .buttonspace{
-padding: 50px;	
-} */
+
 .leftbar-buttons {
 	position: relative;
   padding-bottom: 20px;
@@ -40,11 +38,8 @@ padding: 50px;
    /* Position tooltip to the right of the element */
   [data-tooltip]:before {
 	position: absolute;
-	/* bottom: 150%; */
 	left: 120%;
 	top: 20%;
-	/* margin-bottom: 5px;
-	margin-right: -80px; */
 	padding: 7px;
 	width: 120px;
 	-webkit-border-radius: 3px;
