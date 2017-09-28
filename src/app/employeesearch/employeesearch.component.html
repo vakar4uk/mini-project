@@ -1,13 +1,17 @@
 <!-- Heading -->
 <div class="heading">
-  <h1>Search Employee</h1> <br><br>
-</div>
+  <ol class="breadcrumb">  
+    <li><a routerLink="/dashboard">Home</a></li>
+    <li><a routerLink="/employees">Employees</a></li>
+    <li class="active">Search Employee</li>
+  </ol>
+  </div>
 
 <!-- Left Navigation Bar  -->
 <div class="leftbar-buttons col-lg-3" id="leftbar-buttons">
     <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-      <button data-tooltip="Dashboard" routerLink="/dashboard" type="submit" style="border: 0; background: transparent">
-        <img class="img-circle" src="..\images\home.png" width="50" height="50" alt="submit" />
+      <button data-tooltip="Home" routerLink="/dashboard" type="submit" style="border: 0; background: transparent">
+        <img class="img-circle"src="..\images\home.png" width="50" height="50" alt="submit" />
       </button>
     </div>
     <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
@@ -22,7 +26,7 @@
     </div>
     <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
       <button data-tooltip="Employees" routerLink="/employees" type="submit" style="border: 0; background: transparent">
-        <img class="img-circle" src="..\images\depart1.png" width="50" height="50" alt="submit" />
+        <img class="img-circle" src="..\images\depart.png" width="50" height="50" alt="submit" />
       </button>
     </div>
     <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
