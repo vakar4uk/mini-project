@@ -62,11 +62,8 @@ fieldset{
    /* Position tooltip above the element */
   [data-tooltip]:before {
     position: absolute;
-    /* bottom: 150%; */
     left: 120%;
     top: 20%;
-    /* margin-bottom: 5px;
-    margin-right: -80px; */
     padding: 7px;
     width: 120px;
     -webkit-border-radius: 3px;
