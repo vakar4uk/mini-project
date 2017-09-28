@@ -68,10 +68,7 @@ const appRoutes: Routes =[
     InventorydelComponent,
     InventorysearchComponent,
     ForgotpasswordComponent,
-<<<<<<< HEAD
-=======
     ResetpasswordComponent
->>>>>>> master
   ],
   imports: [
     BrowserModule,
