@@ -7,14 +7,11 @@ import { NgForm } from '@angular/forms';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-// export class InventorysearchComponent implements OnInit {
-  
-//     constructor() { }
+
 export class LoginComponent{
   @ViewChild('f') signupForm: NgForm;
   constructor() { 
-  //var connections = new con();
-     
+ 
     
   }
   // ngOnInit(){

@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { Routes, RouterModule } from '@angular/router';
 
-import {con} from './demo-db';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -24,6 +23,8 @@ import { InventorydelComponent } from './inventorydel/inventorydel.component';
 import { InventorysearchComponent } from './inventorysearch/inventorysearch.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { ResetpasswordComponent } from './resetpassword/resetpassword.component';
+import { DbpipePipe } from './DBstuff/dbpipe.pipe';
+import { DataService } from './DBstuff/data.service';
 
 const appRoutes: Routes =[
   { path: '', component: LoginComponent },
@@ -68,7 +69,8 @@ const appRoutes: Routes =[
     InventorydelComponent,
     InventorysearchComponent,
     ForgotpasswordComponent,
-    ResetpasswordComponent
+    ResetpasswordComponent,
+    DbpipePipe
   ],
   imports: [
     BrowserModule,
@@ -76,6 +78,7 @@ const appRoutes: Routes =[
     HttpModule,
     RouterModule.forRoot(appRoutes)
   ],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
