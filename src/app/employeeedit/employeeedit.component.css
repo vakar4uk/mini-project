@@ -34,9 +34,6 @@ label {
     width:200px;
     margin-right:30px;
     text-align:right;
-<<<<<<< HEAD
-}
-=======
 }
 
 /* Add this attribute to the element that needs a tooltip */
@@ -89,4 +86,3 @@ label {
     left: 50%; 
     margin-left: -60px; 
 	}
->>>>>>> master
