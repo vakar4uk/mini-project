@@ -6,10 +6,9 @@
 
 .fields{    
     margin-top:20px;
-    margin-left: 100px;     
+    margin-left: 400px;     
     font-weight: bold;
-    position: relative;
-    
+    position: relative; 
 }
 
 label{
@@ -84,14 +83,3 @@ fieldset{
     opacity: 1;
   }
  
-  .text-container {   
-    margin-top: 25px;
-    margin-left: 100px;
-    text-align: center;
-  }
-
-
-  .container {
-    position: relative;
-    text-align: center;
-  }
