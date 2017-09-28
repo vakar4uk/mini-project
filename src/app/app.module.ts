@@ -23,6 +23,7 @@ import { InventorydelComponent } from './inventorydel/inventorydel.component';
 import { InventorysearchComponent } from './inventorysearch/inventorysearch.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { ResetpasswordComponent } from './resetpassword/resetpassword.component';
+import { PatientaddComponent } from './patientadd/patientadd.component';
 
 const appRoutes: Routes =[
   { path: '', component: LoginComponent },
@@ -42,7 +43,8 @@ const appRoutes: Routes =[
   { path: 'inventorydel', component: InventorydelComponent },
   { path: 'inventoryedit', component: InventoryeditComponent },
   { path: 'inventorysearch', component: InventorysearchComponent },
-  { path: 'resetpassword', component: ResetpasswordComponent }
+  { path: 'resetpassword', component: ResetpasswordComponent },
+  { path: 'patientadd', component: PatientaddComponent }
   
 
 ];
@@ -67,7 +69,8 @@ const appRoutes: Routes =[
     InventorydelComponent,
     InventorysearchComponent,
     ForgotpasswordComponent,
-    ResetpasswordComponent
+    ResetpasswordComponent,
+    PatientaddComponent
   ],
   imports: [
     BrowserModule,
