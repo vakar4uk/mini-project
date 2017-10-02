@@ -4,16 +4,24 @@
 }
 
 .leftbar-buttons {
-  padding-bottom: 20px;
+  padding-bottom: 43px;
 	width: 50px;
 	float: left;
 	margin-left: 15px;    
 }
 
+.heading{
+	color: rgba(4, 4, 18, 0.79);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    height: 30px;
+}
+
 /* Calendar formatting */
 .calendar-container {
     position: relative;
-    margin-left: 200px;    
+    margin-left: 100px;    
     text-align: center;    
 }
 #calendar {
@@ -66,3 +74,38 @@
     opacity: 1;
   }
  
+
+  /* Calendar Schedule Styling */
+
+  body
+  {
+      font-family: arial;
+  }
+  
+  th,td
+  {
+      margin: 0;
+      text-align: center;
+      border-collapse: collapse;
+      outline: 1px solid #e3e3e3;
+  }
+  
+  td
+  {
+      padding: 5px 10px;
+  }
+  
+  th
+  {
+      background: #666;
+      color: white;
+      padding: 5px 10px;
+  }
+  
+  td:hover
+  {
+      cursor: pointer;
+      background: #666;
+      color: white;
+  }
+  
