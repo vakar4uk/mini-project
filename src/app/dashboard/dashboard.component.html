@@ -1,12 +1,14 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <!-- Heading -->
 <div class="heading">
-    
+
 </div>
 
 <!-- Left Navigation Bar  -->
 <div class="leftbar-buttons col-lg-3" id="leftbar-buttons">
   <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-    <button data-tooltip="Dashboard" routerLink="/dashboard" type="submit" style="border: 0; background: transparent">
+    <button data-tooltip="Home" routerLink="/dashboard" type="submit" style="border: 0; background: transparent">
       <img class="img-circle" src="..\images\home.png" width="50" height="50" alt="submit" />
     </button>
   </div>
@@ -39,14 +41,67 @@
 </div>
 
 <!-- Main Content Goes Here -->
-<div class="marquee-container">
+<div id="container" class="marquee-container">
   <marquee behavior="alternate" direction="left" id="marquee-img">
-    <img src="../../../images/move image.jpg" width="600" height="400">
-    <img src="../../../images/move image1.jpg" width="600" height="400">
-    <img src="../../../images/move image2.jpg" width="600" height="400">
-    <img src="../../../images/move image4.jpg" width="600" height="400">
-    <img src="../../../images/move image3.jpg" width="600" height="400">
-    <img src="../../../images/move image5.jpg" width="600" height="400">
-    <img src="../../../images/move image6.jpg" width="600" height="400">
+    <img src="../../../images/move image.jpg" width="300" height="200">
+    <img src="../../../images/move image1.jpg" width="300" height="200">
+    <img src="../../../images/move image2.jpg" width="300" height="200">
+    <img src="../../../images/move image4.jpg" width="300" height="200">
+    <img src="../../../images/move image3.jpg" width="300" height="200">
+    <img src="../../../images/move image5.jpg" width="300" height="200">
+    <img src="../../../images/move image6.jpg" width="300" height="200">
   </marquee>
+</div>
+
+<div class="text-container">
+  <div class="container col-lg-4">
+    <h4>Most Visited</h4>
+    <hr><br>
+    <div class="dashbuttons">
+      <br>
+      <button data-tooltip="Add Employee" id="positioning" routerLink="/employeeadd" type="submit" style="border: 0; background: transparent">
+                  <img src="..\images\addemp.png" width="50" height="50" alt="submit" />
+          </button>
+      <button data-tooltip="Edit Employee" routerLink="/employeeedit" type="submit" style="border: 0; background: transparent">
+                  <img src="..\images\editemp.png" width="50" height="50" alt="submit" />
+          </button>
+
+      <br> <br> <br> <br><br><br><br>
+
+      <button data-tooltip="Delete Employee" id="positioning" routerLink="/employeedel" type="submit" style="border: 0; background: transparent">
+              <img src="..\images\deleteemp.png" width="50" height="50" alt="submit" />
+          </button>
+      <button data-tooltip="Search Employee" routerLink="/employeesearch" type="submit" style="border: 0; background: transparent">
+                  <img src="..\images\searchemp.png" width="50" height="50" alt="submit" />
+          </button>
+    </div>
+  </div>
+
+  <div class="container col-lg-3">
+      <h4 id="address">Address</h4>
+      <hr><br>
+      <span>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.170680897466!2d-96.81028568519433!3d33.078293980882044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c3ccc06c2b52b%3A0xe1be0baa54fa6207!2sWipro+Limited!5e0!3m2!1sen!2sus!4v1506622269537"
+        width="360" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </span>
+    </div>
+
+  <div id="media-links" class="container col-lg-4">
+    <h4>Follow us on Social Media</h4>
+    <hr><br><br>
+    <span class="col-lg-6">
+      <a href="https://www.facebook.com/WiproLimited" class="fa fa-facebook" target="_blank"></a>
+    </span>
+    <span class="col-lg-6">
+        <a href="https://twitter.com/wipro" class="fa fa-twitter" target="_blank"></a>
+      </span> <br><br><br><br><br><br><br>
+    <span class="col-lg-6">
+          <a href="https://www.linkedin.com/company/wipro" class="fa fa-linkedin" target="_blank"></a>
+        </span>
+    <span class="col-lg-6">
+            <a href="https://www.youtube.com/user/Wiprovideos" class="fa fa-youtube" target="_blank"></a>
+          </span>
+  </div>
+
+  
 </div>
