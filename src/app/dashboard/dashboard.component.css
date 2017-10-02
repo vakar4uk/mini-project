@@ -1,19 +1,37 @@
 * {
 	margin: 0;
-  padding: 0;
-
+	padding: 0;
 }
 
-/* html {
+.leftbar-buttons {
+  position: relative;
+  padding-bottom: 43px;
+	width: 50px;
+	float: left;
+	margin-left: 15px;	  
+}
+
+.heading{
+  color: rgba(4, 4, 18, 0.79);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0;
+  height: 30px;
+}
+<<<<<<< HEAD
+/**
+ * Demo styles
+ * Not needed for tooltips to work
+ */
+=======
+
+>>>>>>> master
+
+/* `border-box`... ALL THE THINGS! */
+html {
     box-sizing: border-box;
-  } */
+  }
   
-#top-navbar {
-  margin-left: 15px;
-  margin-bottom: 10px;  
-  background-color: #7F7FEF;
-}
-
   *,
   *:before,
   *:after {
@@ -112,7 +130,7 @@
     text-align: center;
   }
 
-  .container {    
+  .container {
     position: relative;
     text-align: center;
   }
@@ -123,9 +141,144 @@
   }
   #positioning {
       margin-right: 130px;
-  } 
+  }
+
+  /* Social Media Buttons Styling */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
   
+  .fa:hover {
+      opacity: 0.7;
+  }
   
+  .fa-facebook {
+    background: #000000;
+    color: white;
+    width: 65px;
+    height: 70px;
+  }
+
+  .fa-yelp {
+    background: red;
+    color: white;
+    width: 65px;
+    height: 70px;
+  }
+  
+  .fa-twitter {
+    background: #000000;
+    color: white;
+    width: 65px;
+    height: 70px;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #000000;
+    color: white;
+    width: 65px;
+    height: 70px;
+  }
+  
+  .fa-youtube {
+    background: #000000;
+    color: white;
+    width: 65px;
+    height: 70px;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
+
   hr {
     border-color: black;
     width: 400px;
@@ -143,23 +296,4 @@
 
   #media-links {
     margin-left: 100px;
-  }
-
-  #logout-btn {
-    margin-top: 25%;
-    width: 50px;    
-    background-color: transparent;
-    color: #000000;
-  }
-
-  #logout-btn:hover {
-    background-color: white;
-  }
-
-  .navbar-default .navbar-nav>li>a {
-    color: black;
-  }
-
-  .navbar-default .navbar-nav>li>a:hover {
-    color: white;
   }

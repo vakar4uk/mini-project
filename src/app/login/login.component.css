@@ -3,12 +3,6 @@
     padding: 0;    
 }
 
-header {
-    font-family: 'Federo';
-    font-size: 50px;
-    text-align: center;
-}
-
 #user-data {
     margin-top: 50px;
 }
