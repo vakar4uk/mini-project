@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Login } from './login';
+import { DataService} from '../DBstuff/data.service';
 
 @Component({
   selector: 'app-login',
