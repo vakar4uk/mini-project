@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-declare var test:any;
 
 @Component({
   selector: 'app-root',
@@ -7,7 +6,4 @@ declare var test:any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  f(){
-    new test();
-  }
 }

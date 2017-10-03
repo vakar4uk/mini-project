@@ -22,10 +22,7 @@
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "styles.css"
       ],
-      "scripts": [
-        "D:/mini-project/src/app/scheduling/scheduling.component.datepicker.js",
-        "D:/mini-project/src/app/scheduling/scheduling.component.scheduler.js"
-      ],
+      "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
