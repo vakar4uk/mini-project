@@ -1,197 +1,76 @@
 <!-- Heading -->
+
 <div class="heading">
     <h1>Scheduling</h1>
 </div>
+<body>
 
-<!-- Left Navigation Bar  -->
-<div class="leftbar-buttons col-lg-3" id="leftbar-buttons">
-    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-      <button data-tooltip="Home" routerLink="/dashboard" type="submit" style="border: 0; background: transparent">
-        <img class="img-circle" src="..\images\home.png" width="50" height="50" alt="submit" />
-      </button>
-    </div>
-    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-      <button data-tooltip="Patient" routerLink="/patient" type="submit" style="border: 0; background: transparent">
-        <img class="img-circle" src="..\images\pat.png" width="50" height="50" alt="submit" />
-      </button>
-    </div>
-    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-      <button data-tooltip="Scheduling" routerLink="/scheduling" type="submit" style="border: 0; background: transparent">
-                  <img class="img-circle" src="..\images\cal.png" width="50" height="50" alt="submit" />
-       </button>
-    </div>
-    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-      <button data-tooltip="Employees" routerLink="/employees" type="submit" style="border: 0; background: transparent">
-        <img class="img-circle" src="..\images\depart.png" width="50" height="50" alt="submit" />
-      </button>
-    </div>
-    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-      <button data-tooltip="Inventory" routerLink="/inventory" type="submit" style="border: 0; background: transparent">
-        <img class="img-circle" src="..\images\inv.png" width="50" height="50" alt="submit"/>
-      </button>
-    </div>
-  
-    <div class="btn-group-vetical leftbar-buttons col-lg-6" role="group">
-      <button data-tooltip="Logout" routerLink="/inventory" type="submit" style="border: 0; background: transparent">
-        <img class="img-circle" src="..\images\logout1.png" width="50" height="50" alt="submit" routerLink="/" />
-      </button>
-    </div>
-  </div>
-  
-<!-- Calendar -->
-<br><br>
-
-
-
-
-
-<div class="calendar-container">
-  <title>Timetable</title>
-  <div id="head_nav"></div>
-  <table width="80%" align="center">
-    <tr>
-      <th>Time</th>
-
-      <th>Monday</th>
-
-      <th>Tuesday</th>
-
-      <th>Wednesday</th>
-
-      <th>Thrusday</th>
-
-      <th>Friday</th>
-
-      <th>Saturday</th>
-    </tr>
-
-    <tr>
-        <th>8:00 - 9:00</th>
-  
-        <td>Dr. Lee</td>
-  
-        <td>Dr. Smith</td>
-  
-        <td>Dr. Lee</td>
-  
-        <td>Dr. Smith</td>
-  
-        <td>Dr. Lee</td>
-  
-        <td>Dr. Smith</td>
-    </tr>
-
-    <tr>
-        <th>9:00 - 10:00</th>
-  
-        <td>Dr. Lee</td>
-  
-        <td>Dr. Smith</td>
-  
-        <td>Dr. Lee</td>
-  
-        <td>Dr. Smith</td>
-  
-        <td>Dr. Lee</td>
-  
-        <td>Dr. Smith</td>
-    </tr>
-
-    <tr>
-      <th>10:00 - 11:00</th>
-
-      <td>Dr. Lee</td>
-
-      <td>Dr. Smith</td>
-
-      <td>Dr. Lee</td>
-
-      <td>Dr. Smith</td>
-
-      <td>Dr. Lee</td>
-
-      <td>Dr. Smith</td>
-    </tr>
-
-    <tr>
-      <th>11:00 - 12:00</th>
-
-      <td>Dr. Lee</td>
-
-      <td>Dr. Smith</td>
-
-      <td>Dr. Lee</td>
-
-      <td>Dr. Smith</td>
-
-      <td>Dr. Lee</td>
-
-      <td>Dr. Smith</td>
-    </tr>
-
-    <tr>
-      <th>01:00 - 02:00</th>
-
-      <td>Dr. Lee</td>
-
-      <td>Dr. Smith</td>
-
-      <td>Dr. Lee</td>
-
-      <td>Dr. Smith</td>
-
-      <td>Dr. Lee</td>
-
-      <td>Dr. Smith</td>
-    </tr>
-
-    <tr>
-      <th>02:00 - 03:00</th>
-
-      <td>Dr. Lee</td>
-      
-      <td>Dr. Smith</td>
-
-      <td>Dr. Lee</td>
-
-      <td>Dr. Smith</td>
-
-      <td>Dr. Lee</td>
-
-      <td>Dr. Smith</td>
-    </tr>
-
-    <tr>
-        <th>03:00 - 04:00</th>
-  
-        <td>Dr. Lee</td>
-  
-        <td>Dr. Smith</td>
-  
-        <td>Dr. Lee</td>
-  
-        <td>Dr. Smith</td>
-  
-        <td>Dr. Lee</td>
-  
-        <td>Dr. Smith</td>
-    </tr>
-
-    <tr>
-        <th>04:00 - 05:00</th>
-  
-        <td>Dr. Lee</td>
-        
-        <td>Dr. Smith</td>
-  
-        <td>Dr. Lee</td>
-  
-        <td>Dr. Smith</td>
-  
-        <td>Dr. Lee</td>
-  
-        <td>Dr. Smith</td>
-    </tr>
-
-  </table>
+<div style="text-align: center">
+    <input type="text" id="schedule"/>
+    <input type="button" id="scheduler"
+           class="btn btn-primary"
+           data-scheduler-popover="#scheduler_tpl"
+           data-scheduler-display="#schedule"
+           data-dates-input="[name=dates]"
+           data-hours-input="[name=hours]"
+           value="Select Schedule"/>
+    <br/>
+    <input type="text" name="dates"/>
+    <input type="text" name="hours"/>
 </div>
+
+<script id="scheduler_tpl" type="text/html">
+    <div class="alert alert-info fade in">
+        <button class="close" data-dismiss="alert">&times;</button>
+        Scroll mouse to navigate through months. Click to toggle select dates. <br/>
+        Dragging to select a range, or pressing alt key while dragging to deselect. <br/>
+        Hourly selection will be applied to all selected dates.
+    </div>
+    <div class="datepickers">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <div class="hours"></div>
+    <div class="actions">
+        <button class="btn btn-today">Today</button>
+        <button class="btn btn-clean">Clean</button>
+        <button class="btn btn-reset">Reset</button>
+        <button class="btn btn-close pull-right">Close</button>
+        <button class="btn btn-primary btn-select pull-right">Select</button>
+    </div>
+    <div>Selected Dates&nbsp;<span class="total"></span></div>
+    <ul class="date-list">
+        <li>(Empty)</li>
+    </ul>
+</script>
+
+<div class="scheduler" data-scheduler="on" data-readonly="true" style="margin: 15px auto">
+    <div class="alert alert-info fade in">
+        <button class="close" data-dismiss="alert">&times;</button>
+        Scroll mouse to navigate through months. Click to toggle select dates. <br/>
+        Dragging to select a range, or pressing alt key while dragging to deselect. <br/>
+        Hourly selection will be applied to all selected dates.
+    </div>
+    <div class="datepickers">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <div class="hours"></div>
+    <div class="actions">
+        <button class="btn btn-today">Today</button>
+        <button class="btn btn-reset">Reset</button>
+        <button class="btn btn-clean">Clean</button>
+        <button class="btn btn-primary btn-select pull-right">Select</button>
+    </div>
+    <div>Selected Dates&nbsp;<span class="total"></span></div>
+    <ul class="date-list">
+        <li>(Empty)</li>
+    </ul>
+</div>
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/scheduler.js"></script>
+</body>
+</html>
