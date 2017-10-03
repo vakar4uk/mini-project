@@ -23,6 +23,8 @@ import { InventorydelComponent } from './inventorydel/inventorydel.component';
 import { InventorysearchComponent } from './inventorysearch/inventorysearch.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { ResetpasswordComponent } from './resetpassword/resetpassword.component';
+import {AccordionModule} from 'primeng/primeng';     //accordion and accordion tab
+import {MenuItem} from 'primeng/primeng';            //api
 
 const appRoutes: Routes =[
   { path: '', component: LoginComponent },
