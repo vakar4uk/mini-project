@@ -3,28 +3,21 @@ import { TestBed, inject } from '@angular/core/testing';
 import { Http, Headers, Response, RequestOptions } from '@angular/http';
 import { Login } from '../login/login'
 import { Observable } from 'rxjs/Rx';
+import 'rxjs/Rx';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 @Injectable()
 export class DataService {
-  constructor(private http: Http) {
-    var obj;
+  private allLogin:Login[]=[];
+  constructor(private _http: Http) {
     //this.getData().subscribe(data => obj = data, error => console.log(error));
   }
 
-  getData():Observable<any> {
-    return this.http.get("file.json")
-      .map((response: any) => response.json())
-      .catch((error: any) => {
-        console.log(error);
-        return Observable.of(undefined)
-      });
 
-  }
   getUsername(Username: any):Observable<any>{
 
-    return this.http.get("file.json" + Username)
+    return this._http.get("http://localhost:3000/Person")
       .map((response: Response) => response.json())
       .catch((error: any) => {
         console.log(error);
@@ -32,8 +25,9 @@ export class DataService {
       });
 
   }
+
   getPassword(Password: any):Observable<any>{
-        return this.http.get("file.json" + Password)
+        return this._http.get("http://localhost:3000/Person")
           .map((response: Response) => response.json())
           .catch((error: any) => {
             console.log(error);

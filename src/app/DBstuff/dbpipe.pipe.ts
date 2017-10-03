@@ -5,8 +5,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class DbpipePipe implements PipeTransform {
 
-  transform(value: any, args?: any): any {
-    return null;
+  transform(value: any[], arg?: any){
+    return value.filter(item => item.Title.startsWith(arg));
   }
 
 }
