@@ -2,6 +2,7 @@
 // https://github.com/angular/protractor/blob/master/lib/config.ts
 
 /*global jasmine */
+//var connection = require("./db.js");
 const { SpecReporter } = require('jasmine-spec-reporter');
 
 exports.config = {
