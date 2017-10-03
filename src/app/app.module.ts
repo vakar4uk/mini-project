@@ -26,7 +26,7 @@ import { ResetpasswordComponent } from './resetpassword/resetpassword.component'
 import {AccordionModule} from 'primeng/primeng';     //accordion and accordion tab
 import {MenuItem} from 'primeng/primeng';            //api
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {ScheduleModule} from 'primeng/primeng';
+
 const appRoutes: Routes =[
   { path: '', component: LoginComponent },
   { path: 'forgotpassword', component: ForgotpasswordComponent },
