@@ -28,7 +28,7 @@
          email -->
 
         <button type="submit"
-         routerLink="/dashboard"
+        (click)="onSubmit()"
          class="btn btn-primary"
          [disabled]="!f.valid">Login
         

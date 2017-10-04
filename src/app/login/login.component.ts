@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit{
   onSubmit() {
     this._datatask.getUsername(this.model).subscribe(
       (data:Login)=>{
-        if(data!=null)
+        if(data!= null)
           this._router.navigate(['/dashboard']);
       },
       function (error){console.log("error"+error)},
